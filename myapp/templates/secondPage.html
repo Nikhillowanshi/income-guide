@@ -1,0 +1,93 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome Page</title>
+    <link rel="stylesheet" href="{% static 'css/secondPage.css' %}">
+
+
+
+    <style>
+
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="text">
+            <h4>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</h4>
+        </div>
+
+        <!-- Welcome Video -->
+        <div class="welcome-video">Welcome Video Here</div>
+
+        <!-- Welcome Lines -->
+        <div class="welcome-text">
+            Welcome to our community! 🎉<br>
+            Here you will get guidance, updates, support and access to all your learning content.
+        </div>
+
+
+        <button class="full-btn">Join Community</button>
+
+        <button class="help-btn">Need Help?</button>
+        <div class="slide-box">
+            <ul class="social-list">
+
+                <li> <a href="">
+                        <img src="{% static 'icons/telegram.png' %}" alt="Telegram">
+                        <span>Telegram</span>
+                    </a>
+
+                </li>
+
+                <li> <a href="">
+                        <img src="{% static 'icons/whatsapp.png' %}" alt="WhatsApp">
+                        <span>WhatsApp</span>
+                    </a>
+
+                </li>
+
+                <li> <a href="https://www.youtube.com/watch?v=_eTShi_wzQU&list=RD_eTShi_wzQU&start_radio=1"> <img
+                            src="{% static 'icons/instagram.png' %}" alt="Instagram">
+                        <span>Instagram</span>
+                    </a>
+
+                </li>
+
+                <li> <a href="https://www.youtube.com/watch?v=_eTShi_wzQU&list=RD_eTShi_wzQU&start_radio=1"> <img
+                            src="{% static 'icons/email.png' %}" alt="Email">
+                        <span>Email </span>
+                    </a>
+
+                </li>
+
+                <li> <a href="">
+                        <img src="{% static 'icons/youtube.png' %}" alt="YouTube">
+                        <span>YouTube</span>
+                    </a>
+
+                </li>
+
+
+
+
+            </ul>
+        </div>
+
+
+
+
+        <footer>© 2025 Your Community • All Rights Reserved</footer>
+
+    </div>
+    <script src="{% static 'js/script.js' %}" defer></script>
+
+</body>
+
+</html>

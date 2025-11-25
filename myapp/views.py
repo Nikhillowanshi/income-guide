@@ -1,0 +1,13 @@
+from django.shortcuts import render
+from django.http import HttpResponse
+
+# Create your views here.
+
+
+
+def index(request):
+    return render ( render ,'index.html')
+
+def SeconPage(request):
+    return render ( render ,'secondPage.html')
+
